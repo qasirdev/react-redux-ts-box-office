@@ -5,6 +5,11 @@ npm i --save react-query axios react-icons react-router-dom
 
 https://www.themoviedb.org/settings/api
 https://developers.themoviedb.org/3/getting-started/introduction
+https://getbootstrap.com/docs/4.6/getting-started/introduction/
+
+## code snipt:
+
+`racfce` to create arrow function with export
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 

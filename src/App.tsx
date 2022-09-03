@@ -1,9 +1,21 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './component/Header';
+import Favorites from './pages/Favorites';
+import Home from './pages/Home';
+import Movie from './pages/Movie';
 
 function App() {
   return (
     <div className="App">
-      <h2>Movie App</h2>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/movie/:id" element={<Movie />} />
+          <Route path="/favorites" element={<Favorites />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
