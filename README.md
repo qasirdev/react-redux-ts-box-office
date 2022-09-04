@@ -1,10 +1,13 @@
 # Getting Started with Create React App
 
-Commands:
+Link: https://www.youtube.com/watch?v=Yb9gyTfX_zY
+
+## Commands:
+
 npm i --save react-query axios react-icons react-router-dom
 
 https://www.themoviedb.org/settings/api
-https://developers.themoviedb.org/3/getting-started/introduction
+https://developers.themoviedb.org/3/movies/get-popular-movies
 https://getbootstrap.com/docs/4.6/getting-started/introduction/
 
 ## code snipt:
