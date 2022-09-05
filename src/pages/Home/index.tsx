@@ -6,6 +6,7 @@ const Home = () => {
   const [page, setPage] = useState<number>(1);
   const { data: movies, isLoading } = usePaginatedFetchMovies(page);
 
+  console.log('movies => ', movies);
   return (
     <>
       {isLoading ? (
