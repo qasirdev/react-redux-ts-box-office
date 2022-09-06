@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import useFetchMovieById from '../../service/fetchMovie';
 import { FiArrowLeft } from 'react-icons/fi';
 import { AiFillStar } from 'react-icons/ai';
+import './style.css';
 
 const Movie = () => {
   const { id } = useParams();

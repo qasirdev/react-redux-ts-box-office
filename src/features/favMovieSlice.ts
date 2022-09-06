@@ -1,8 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { stat } from 'fs';
-import { Action } from 'history';
 import { MovieType } from '../common/types';
-import Movie from '../pages/Movie';
 
 type Movie = Omit<
   MovieType,
